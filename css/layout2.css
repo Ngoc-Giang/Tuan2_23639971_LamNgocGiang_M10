@@ -1,0 +1,39 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(96, 179, 96);;
+    padding: 3px 0;
+}
+.main{
+    display:flex;
+    flex:1;
+
+}
+nav{
+    background-color: rgb(96, 179, 96);
+    padding: 3px 0;
+    flex: 1 1 100px;
+    height: 450px;
+}
+section{
+    background-color: rgb(96, 179, 96);
+    padding: 3px 0;
+    flex: 5 5 150px;
+}
+aside{
+    background-color: rgb(96, 179, 96);
+    padding: 3px 0;
+    flex: 1 1 100px;
+}
+footer{
+    background-color: rgb(96, 179, 96);
+    padding: 3px 0;
+}
